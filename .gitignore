@@ -1,0 +1,32 @@
+# PyTorch / 训练输出
+output/
+__pycache__/
+*.pyc
+*.pth
+*.npz
+
+# 数据集（不入库，体积过大）
+中草药datas/
+data/
+*.jpg
+*.png
+
+# 日志
+prediction.log
+
+# Python 环境
+venv/
+env/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# 系统文件
+.DS_Store
+Thumbs.db
